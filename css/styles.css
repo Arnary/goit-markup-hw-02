@@ -1,0 +1,178 @@
+:root {
+    --main-text-color: #434455;
+    --main-background-color: #fff;
+    --header-text-color: #2e2f42;
+    --primary-brand-color: #4d5ae5;
+    --pressed-state-color: #404bbf;
+    --header-background-color: #fff;
+    --hero-background-color: #2e2f42;
+    --footer-background-color: #2e2f42;
+    --footer-text-color: #f4f4fd;
+    --filters-buttons-color: #f4f4fd;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--primary-brand-color);
+}
+
+header .logo-link {
+    font-family: "Raleway", sans-serif;
+    color: var(--header-text-color);
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+}
+
+.nav-links a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    color: var(--pressed-state-color); 
+}
+
+.addresses a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.addresses a:hover,
+.addresses a:focus {
+    color: var(--pressed-state-color);
+}
+
+header {
+    background-color: var(--header-background-color);
+}
+
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero .title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.hero button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: var(--primary-brand-color);
+    cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+    background-color: var(--pressed-state-color)
+}
+
+.advantages h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.advantages p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.main-page-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+footer .logo-link {
+    font-family: "Raleway", sans-serif;
+    color: var(--footer-text-color);
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+}
+
+.filters-buttons button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--filters-buttons-color);
+    color: var(--primary-brand-color);
+    cursor: pointer;
+
+}
+
+.filters-buttons button:hover,
+.filters-buttons button:focus {
+    background-color: var(--pressed-state-color);
+    color: #fff;
+}
+
+.portfolio-list h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.project-type-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
